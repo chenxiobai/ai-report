@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 权威简报</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+  h1 { color: #1a1a1a; font-size: 22px; border-bottom: 3px solid #0066cc; padding-bottom: 10px; }
+  .date { color: #666; font-size: 13px; margin-bottom: 20px; }
+  .section { background: #fff; border-radius: 10px; padding: 18px; margin-bottom: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+  .section h2 { font-size: 16px; color: #0066cc; margin: 0 0 14px 0; padding-bottom: 8px; border-bottom: 1px solid #e0e0e0; }
+  .item { margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid #f0f0f0; }
+  .item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .item-title { font-weight: bold; font-size: 15px; color: #1a1a1a; margin-bottom: 6px; }
+  .item-summary { font-size: 14px; color: #444; line-height: 1.6; margin-bottom: 6px; }
+  .item-source { font-size: 13px; }
+  .item-source a { color: #0066cc; text-decoration: none; background: #f0f7ff; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-right: 6px; }
+  .item-source a:hover { text-decoration: underline; background: #dceeff; }
+  .no-update { color: #999; font-style: italic; text-align: center; padding: 16px; background: #fafafa; border-radius: 6px; }
+  .footer { text-align: center; color: #aaa; font-size: 12px; margin-top: 20px; padding-top: 12px; border-top: 1px solid #e0e0e0; }
+  .conclusion { background: #fff; border-left: 4px solid #0066cc; padding: 14px 18px; margin-top: 10px; border-radius: 0 8px 8px 0; }
+  .conclusion-title { font-weight: bold; color: #0066cc; margin-bottom: 6px; }
+  .conclusion-text { font-size: 14px; color: #333; line-height: 1.6; }
+</style>
+</head>
+<body>
+<h1>🤖 AI 权威简报</h1>
+<div class="date">📅 日期：2026-07-09（星期四）</div>
+<div class="section"><h2>🌍 海外动态</h2>
+<div class="item"><div class="item-title">OpenAI 发布 GPT-Live：全双工语音交互新时代</div><div class="item-summary">GPT-Live 基于全双工架构，实现真正连续的语音对话，模型可同时听和说，并引入"Mhmm""Yeah"等自然倾听反馈。复杂推理任务可后台委托给 GPT-5.5 等前沿模型，同时保持对话流畅不中断。</div><div class="item-source"><a href="https://openai.com/index/introducing-gpt-live/" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">OpenAI 审计 SWE-Bench Pro：约 30% 任务存在设计缺陷</div><div class="item-summary">OpenAI 对主流编程评测基准 SWE-Bench Pro 进行了系统性审计，发现约 30%（34.1%）的任务存在过度严格测试、需求不完整、覆盖不足或误导性提示等问题，可能导致错误的能力评估。</div><div class="item-source"><a href="https://openai.com/index/separating-signal-from-noise-coding-evaluations/" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">OpenAI 推出 GeneBench-Pro：评估科研级判断能力 benchmark</div><div class="item-summary">GeneBench-Pro 涵盖基因组学、定量生物学和转化医学等 10 个领域 129 个问题，重点评估 AI 在真实数据模糊性、假设修正、分析路径选择等"科研品味"层面的判断能力，使用合成数据确保评测公平性。</div><div class="item-source"><a href="https://openai.com/index/introducing-genebench-pro/" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">Anthropic Claude Fable 5 恢复全球部署，联合业界推出越狱评级框架</div><div class="item-summary">受美国出口管制影响暂停的 Claude Fable 5 和 Mythos 5 已于 7 月 1 日恢复全球访问。Anthropic 同时联合 Amazon、Microsoft、Google 等Glasswing 合作伙伴，共同提出行业级"越狱严重程度"评分框架。</div><div class="item-source"><a href="https://www.anthropic.com/news/redeploying-fable-5" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">Google AI Blog 今日无更新</div><div class="item-summary">今日未能抓取到 Google AI Blog 新内容，可能因站点维护或网络访问问题。</div><div class="item-source"><a href="https://blog.google/innovation-and-ai/technology/ai/" target="_blank">📖 原文链接</a></div></div>
+</div>
+<div class="section"><h2>🇨🇳 国内动态</h2>
+<div class="item"><div class="item-title">阿里巴巴 HSCodeComp 获评 ACL 2026 最佳资源论文</div><div class="item-summary">阿里发布 HSCodeComp，首个评估深度搜索智能体在复杂分层规则应用（如跨境贸易关税）能力的专家级 benchmark。当前最优智能体准确率仅 49.4%，远低于人类专家 95%，显示分层规则推理仍是重大架构瓶颈。</div><div class="item-source"><a href="https://www.alibabacloud.com/blog/alibabas-latest-ai-agent-benchmark-awarded-best-resource-paper-at-acl-2026_603341" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">阿里推 Nacos Skill Sync：多智能体时代的 Skill 同步管理方案</div><div class="item-summary">针对 AI 编码工具碎片化导致 Skill 手动复制、易出错的痛点，Nacos Skill Sync 提供中心化存储 + 符号链接实时分发方案，支持 Cursor、Claude Code、Codex 等异构 Agent 目录的同步更新。</div><div class="item-source"><a href="https://www.alibabacloud.com/blog/stop-manually-copying-skills-a-management-solution-for-the-multi-agent-era_603342" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">阿里云：AI 眼镜市场接近临界点，2030 年规模或超 300 亿美元</div><div class="item-summary">阿里云发表深度分析，指出 AI 眼镜在技术成熟度、用户行为转变和单位经济可行性三方面正趋于一致，ABI Research 预测 2026 年智能眼镜市场规模将达 78 亿美元，18 个月内将是各平台争夺的关键窗口期。</div><div class="item-source"><a href="https://www.alibabacloud.com/blog/the-tipping-point-for-ai-glasses_603338" target="_blank">📖 原文链接</a></div></div>
+</div>
+<div class="section"><h2>📌 今日判断</h2><div class="conclusion"><div class="conclusion-title">多模态语音交互与评测体系标准化成为本周焦点</div><div class="conclusion-text">GPT-Live 的全双工架构标志着语音交互从"轮流说话"向"实时共话"跃迁，是迈向真正自然人机协作的重要一步；与此同时，OpenAI 对 SWE-Bench Pro、GeneBench-Pro 的系列审计，以及 Anthropic 联合业界推出越狱评级框架，揭示出 AI 评测体系标准化已从单一公司行为演变为行业共识。国内方面，阿里 HSCodeComp 在 ACL 斩获最佳资源论文，显示中国在大模型评测领域正建立国际学术影响力；AI 眼镜临界点的判断也契合了多模态端侧 AI 的发展趋势。</div></div></div>
+<div class="footer">由 AI 自动抓取权威来源生成 · 点击来源链接查看原文</div>
+</body>
+</html>
