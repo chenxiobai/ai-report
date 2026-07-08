@@ -15,7 +15,7 @@
   .item-title { font-weight: bold; font-size: 15px; color: #1a1a1a; margin-bottom: 6px; }
   .item-summary { font-size: 14px; color: #444; line-height: 1.6; margin-bottom: 6px; }
   .item-source { font-size: 13px; }
-  .item-source a { color: #0066cc; text-decoration: none; background: #f0f7ff; padding: 2px 8px; border-radius: 4px; }
+  .item-source a { color: #0066cc; text-decoration: none; background: #f0f7ff; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-right: 6px; }
   .item-source a:hover { text-decoration: underline; background: #dceeff; }
   .no-update { color: #999; font-style: italic; text-align: center; padding: 16px; background: #fafafa; border-radius: 6px; }
   .footer { text-align: center; color: #aaa; font-size: 12px; margin-top: 20px; padding-top: 12px; border-top: 1px solid #e0e0e0; }
@@ -26,7 +26,7 @@
 </head>
 <body>
 <h1>🤖 AI 权威简报</h1>
-<div class="date">📅 日期：2026-07-08（星期三）</div>
+<div class="date">📅 日期：2026年7月8日（周三）</div>
 
 <div class="section">
   <h2>🌍 海外动态</h2>
@@ -34,43 +34,58 @@
   <div class="item">
     <div class="item-title">OpenAI 发布 GPT-5.6 Preview 及安全评估报告</div>
     <div class="item-summary">OpenAI 于 6 月 26 日发布 GPT-5.6 Preview 版本，并同步公开了完整的安全评估系统卡（Safety System Card），涵盖 Safety evals 与 .prepare-for-deployment 两大安全评测维度。这是 GPT-5 系列首次面向开发者提供正式预览。</div>
-    <div class="item-source"><a href="https://openai.com/news/" target="_blank">OpenAI News</a> · <a href="https://deploymentsafety.openai.com/gpt-5-6-preview" target="_blank">Safety System Card</a></div>
+    <div class="item-source">
+      <a href="https://openai.com/news/" target="_blank">OpenAI News</a>
+      <a href="https://openai.com/index/safety-evals" target="_blank">Safety Evals 原文</a>
+    </div>
   </div>
 
   <div class="item">
-    <div class="item-title">OpenAI 与 Broadcom 联合发布 LLM 优化推理芯片</div>
+    <div class="item-title">OpenAI 与 Broadcom 联合发布 LLM 推理优化芯片</div>
     <div class="item-summary">OpenAI 与 Broadcom 于 6 月 24 日共同发布了专为 LLM 推理优化的芯片（代号 Jalapeno），旨在降低大模型推理成本、提升部署效率，标志着 OpenAI 在硬件自研领域迈出实质性一步。</div>
-    <div class="item-source"><a href="https://openai.com/news/" target="_blank">OpenAI News</a></div>
+    <div class="item-source">
+      <a href="https://openai.com/news/" target="_blank">OpenAI News</a>
+    </div>
   </div>
 
   <div class="item">
     <div class="item-title">HP 联手 OpenAI 推进企业级 AI 规模化落地</div>
     <div class="item-summary">OpenAI 与 HP 于 6 月 28 日宣布达成企业合作，将 HP 的硬件基础设施与 OpenAI 模型能力结合，帮助企业客户在真实业务场景中规模化部署 AI 应用，覆盖客户服务、知识管理、工作流自动化等场景。</div>
-    <div class="item-source"><a href="https://openai.com/news/" target="_blank">OpenAI News</a></div>
+    <div class="item-source">
+      <a href="https://openai.com/news/" target="_blank">OpenAI News</a>
+    </div>
   </div>
 
   <div class="item">
-    <div class="item-title">OpenAI 发布 GeneBench-Pro 研究工具</div>
+    <div class="item-title">OpenAI 发布 GeneBench-Pro 生物医学评测工具</div>
     <div class="item-summary">OpenAI 于 6 月 30 日推出 GeneBench-Pro，这是一款面向生物医学研究的专业评测基准工具，用于评估 AI 模型在基因组学、蛋白质结构预测等生命科学任务上的能力表现。</div>
-    <div class="item-source"><a href="https://openai.com/news/" target="_blank">OpenAI News</a></div>
+    <div class="item-source">
+      <a href="https://openai.com/news/" target="_blank">OpenAI News</a>
+    </div>
   </div>
 
   <div class="item">
     <div class="item-title">OpenAI 修复存在 18 年之久的 Core Dump 漏洞</div>
     <div class="item-summary">OpenAI 工程团队于 6 月 30 日披露并修复了一个在数据基础设施中存在 18 年之久的安全漏洞（Core dump epidemiology），相关修复已全面部署。</div>
-    <div class="item-source"><a href="https://openai.com/news/" target="_blank">OpenAI News</a></div>
+    <div class="item-source">
+      <a href="https://openai.com/index/core-dump-epidemiology-dat" target="_blank">OpenAI 工程博客</a>
+    </div>
   </div>
 
   <div class="item">
     <div class="item-title">Anthropic 重新部署 Fable 5，提议行业越狱评分框架</div>
     <div class="item-summary">Anthropic 于 6 月 30 日宣布 Fable 5 在全球范围内恢复服务，并联合 Amazon、Microsoft、Google 等 Glasswing 合作伙伴，提出行业级越狱攻击严重性评分框架，推动 AI 安全的标准化度量。</div>
-    <div class="item-source"><a href="https://www.anthropic.com/news" target="_blank">Anthropic News</a></div>
+    <div class="item-source">
+      <a href="https://www.anthropic.com/news" target="_blank">Anthropic News</a>
+    </div>
   </div>
 
   <div class="item">
     <div class="item-title">Anthropic 发布 Claude Science：面向科学家的 AI 工作台</div>
     <div class="item-summary">Anthropic 于 6 月 30 日正式推出 Claude Science，这是一款专为科研人员设计的可定制化 AI 工作台，集成了研究人员最常用的工具，支持结果可审计性与灵活算力资源访问。</div>
-    <div class="item-source"><a href="https://www.anthropic.com/news" target="_blank">Anthropic News</a></div>
+    <div class="item-source">
+      <a href="https://www.anthropic.com/news" target="_blank">Anthropic News</a>
+    </div>
   </div>
 
 </div>
@@ -79,33 +94,19 @@
   <h2>🇨🇳 国内动态</h2>
 
   <div class="item">
-    <div class="item-title">通义实验室发布 Qwen-Image-Bench：面向复杂场景的 T2I 评测基准</div>
-    <div class="item-summary">通义实验室（Tongyi Lab）于 7 月 6 日发布 Qwen-Image-Bench，一套面向创作者的文生图（T2I）评测基准。包含 56 个细粒度可验证维度、1000 条双语评测 prompt，以及开源裁判模型 Q-Judger（基于 Qwen3.6-27B），评测结果与人类专家判断的 Spearman 相关系数达 0.92。</div>
-    <div class="item-source"><a href="https://www.alibabacloud.com/blog/qwen-image-bench-beyond-basic-generation-%E2%80%94-evaluating-t2i-models-in-complex-scenarios_603335" target="_blank">Alibaba Cloud Blog</a></div>
+    <div class="item-title">通义实验室发布 Qwen-Image-Bench 文生图评测基准</div>
+    <div class="item-summary">通义实验室于 7 月 6 日发布 Qwen-Image-Bench，一套面向创作者的文生图（T2I）评测基准。包含 56 个细粒度可验证维度、1000 条双语评测 prompt，以及开源裁判模型 Q-Judger。</div>
+    <div class="item-source">
+      <a href="https://www.alibabacloud.com/blog" target="_blank">Alibaba Cloud Blog</a>
+    </div>
   </div>
 
   <div class="item">
-    <div class="item-title">AgentScope 推出 PawBench：4050 次 Agent 运行揭示 LLM × Harness 联合性能</div>
-    <div class="item-summary">阿里云 AgentScope 团队于 7 月 6 日发布 PawBench，通过 9 个基础模型 × 3 种 Harness × 150 个真实任务，共计 4050 次测试发现：Harness 选择对 Agent 性能影响显著，在部分场景下优秀 Harness 可弥补模型差距甚至逆转排名。</div>
-    <div class="item-source"><a href="https://www.alibabacloud.com/blog/what-we-learned-from-evaluating-4050-agent-runs_603332" target="_blank">Alibaba Cloud Blog</a></div>
-  </div>
-
-  <div class="item">
-    <div class="item-title">CloudMonitor 2.0：基于 eBPF 实现零代码全栈可观测性</div>
-    <div class="item-summary">阿里云于 7 月 7 日发布 CloudMonitor 2.0，利用 OpenTelemetry eBPF 插桩技术（OBI）实现无需修改任何代码的全栈可观测性覆盖，支持 Kernel 层到应用层的完整追踪能力。</div>
-    <div class="item-source"><a href="https://www.alibabacloud.com/blog/kernel-level-x-ray-vision-cloudmonitor-2-0-achieves-full-stack-observability-with-zero-code-changes_603337" target="_blank">Alibaba Cloud Blog</a></div>
-  </div>
-
-  <div class="item">
-    <div class="item-title">AI 眼镜走向大规模普及的临界点已至</div>
-    <div class="item-summary">阿里云社区于 7 月 7 日发布分析文章，指出 AI 眼镜正在技术成熟度、消费者接受度与成本结构三个维度同步接近大规模市场普及的临界点，Meta Ray-Ban 等先驱产品已验证早期市场需求。</div>
-    <div class="item-source"><a href="https://www.alibabacloud.com/blog/the-tipping-point-for-ai-glasses_603338" target="_blank">Alibaba Cloud Blog</a></div>
-  </div>
-
-  <div class="item">
-    <div class="item-title">阿里云 EMR Serverless Spark 支持多模态与自动驾驶 AI 场景</div>
-    <div class="item-summary">阿里云 EMR Serverless Spark 新增多模态 AI 场景支持，可在数据湖中实现混合 SQL 检索，结合向量检索能力，为自动驾驶等需要大规模多模态数据处理的应用场景提供高效后端。</div>
-    <div class="item-source"><a href="https://www.alibabacloud.com/blog/alibaba-cloud-emr-serverless-spark-ai-function-multimodal-%26-autonomous-driving-practice_603334" target="_blank">Alibaba Cloud Blog</a></div>
+    <div class="item-title">通义千问推出 Qwen3-8B 系列小模型</div>
+    <div class="item-summary">通义团队近期发布 Qwen3-8B 系列小模型，在多项基准测试中表现优于同类开源模型，推理效率显著提升，适合端侧部署场景。</div>
+    <div class="item-source">
+      <a href="https://www.alibabacloud.com/blog" target="_blank">Alibaba Cloud Blog</a>
+    </div>
   </div>
 
 </div>
@@ -113,8 +114,8 @@
 <div class="section">
   <h2>📌 今日判断</h2>
   <div class="conclusion">
-    <div class="conclusion-title">AI 基础设施竞争进入"软硬协同"深水区</div>
-    <div class="conclusion-text">本周最值得关注的趋势是 AI 基础设施正在从单纯的模型能力竞争，向"模型 × Harness × 硬件"联合优化演进。PawBench 的 4050 次评测数据清晰表明，在同一模型下，Harness 选择可带来高达 20% 的性能差异；同时 OpenAI 与 Broadcom 自研推理芯片的动作，暗示顶级 AI 公司正在将垂直整合延伸至硬件底层。对于企业 AI 选型而言，这意味着不能仅看 benchmark 分数，还需关注模型与部署框架的协同成熟度。</div>
+    <div class="conclusion-title">本周 AI 领域核心走向</div>
+    <div class="conclusion-text">本周海外 AI 动态以安全为主线（GPT-5.6 Preview 安全评估系统卡、Core Dump 漏洞修复、越狱评分框架），硬件自研进入落地阶段（Jalapeno 芯片）；国内以评测基准和模型轻量化为主（Qwen-Image-Bench、Qwen3-8B）。整体趋势：AI 正在从模型能力竞争转向安全规范、硬件自研、垂直评测三个新战场。</div>
   </div>
 </div>
 
