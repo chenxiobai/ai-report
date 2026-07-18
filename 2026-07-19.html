@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 权威简报</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+  h1 { color: #1a1a1a; font-size: 22px; border-bottom: 3px solid #0066cc; padding-bottom: 10px; }
+  .date { color: #666; font-size: 13px; margin-bottom: 20px; }
+  .section { background: #fff; border-radius: 10px; padding: 18px; margin-bottom: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+  .section h2 { font-size: 16px; color: #0066cc; margin: 0 0 14px 0; padding-bottom: 8px; border-bottom: 1px solid #e0e0e0; }
+  .item { margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid #f0f0f0; }
+  .item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .item-title { font-weight: bold; font-size: 15px; color: #1a1a1a; margin-bottom: 6px; }
+  .item-summary { font-size: 14px; color: #444; line-height: 1.6; margin-bottom: 6px; }
+  .item-source { font-size: 13px; }
+  .item-source a { color: #0066cc; text-decoration: none; background: #f0f7ff; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-right: 6px; }
+  .item-source a:hover { text-decoration: underline; background: #dceeff; }
+  .no-update { color: #999; font-style: italic; text-align: center; padding: 16px; background: #fafafa; border-radius: 6px; }
+  .footer { text-align: center; color: #aaa; font-size: 12px; margin-top: 20px; padding-top: 12px; border-top: 1px solid #e0e0e0; }
+  .conclusion { background: #fff; border-left: 4px solid #0066cc; padding: 14px 18px; margin-top: 10px; border-radius: 0 8px 8px 0; }
+  .conclusion-title { font-weight: bold; color: #0066cc; margin-bottom: 6px; }
+  .conclusion-text { font-size: 14px; color: #333; line-height: 1.6; }
+</style>
+</head>
+<body>
+<h1>🤖 AI 权威简报</h1>
+<div class="date">📅 日期：2026-07-19（周日）</div>
+<div class="section"><h2>🌍 海外动态</h2>
+<div class="item"><div class="item-title">OpenAI 发布"AI 时代记分牌"：有用智能每美元成核心指标</div><div class="item-summary">OpenAI 发布 CFO 视角的 AI 投资框架，主张用"每美元有用智能"（Useful Intelligence per Dollar）替代单纯 token 价格来衡量 AI 价值，涵盖完成工作数量、成功任务成本、可靠性和规模效益四个维度。GPT-5.6 在 Artificial Analysis 编程 Agent 指数上刷新 SOTA，且输出 token 减少 54%。</div><div class="item-source"><a href="https://openai.com/index/a-scorecard-for-the-ai-age/" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">OpenAI 阐述青少年安全使用 AI 的完整方案</div><div class="item-summary">OpenAI 官方发文，主张青少年应获得安全 AI 访问权限，类比不应等到 18 岁才接触互联网。平台已推出年龄预测、家长控制、学习模式（Study Mode）、间隔休息提醒等多项保护机制，目前每周有 1800 万青少年用户使用 ChatGPT 互动数学和科学功能。</div><div class="item-source"><a href="https://openai.com/index/why-teens-deserve-access-safe-ai/" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">OpenAI 推出 GPT-Red：自动化红队驱动模型自我强化安全</div><div class="item-summary">OpenAI 发布 GPT-Red，一种基于自弈强化学习训练的自动化红队模型，能够规模化发现 prompt injection 等漏洞并反哺模型训练。GPT-5.6 Sol 在最难的直接 prompt injection 基准上失败率降低至 0.05%，较四个月前产品模型提升 6 倍，并已在真实自动售货机 Codex 代理上验证攻击有效性。</div><div class="item-source"><a href="https://openai.com/index/unlocking-self-improvement-gpt-red/" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">OpenAI 发布企业 Agent 时代 AI 投资五大原则</div><div class="item-summary">OpenAI 发布 CFO/IT 领导者视角的 Agent 时代 AI 投资指南，提出五大原则：①强化用量与支出可视化、②按成果 ROI 评估模型效率、③规模化前建立治理机制、④资助可复合的工作流、⑤按实际需求匹配容量。强调最低 token 价格不等于最低任务总成本。</div><div class="item-source"><a href="https://openai.com/index/managing-ai-investments-in-agentic-era/" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">Anthropic Claude Fable 5 重新部署：联合业界推出越狱评级框架</div><div class="item-summary">Claude Fable 5 因美国出口管制被暂停三周后于 7 月 1 日重新上线。Anthropic 同步联合 Amazon、Microsoft、Google 等 Glasswing 合作伙伴发布行业首个 AI 越狱严重程度评估框架，从能力增益、广度、武器化易难度、可发现性四个维度标准化响应级别，并升级安全分类器阻断率超 99%。</div><div class="item-source"><a href="https://www.anthropic.com/news/redeploying-fable-5" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">Google Gemini Spark 上线 macOS 版并扩展互联应用生态</div><div class="item-summary">Google 发布 Gemini Spark 多项更新：macOS 原生应用正式推出，支持跨桌面文件与 Google Workspace 自动化任务；新增 Google Tasks、Keep、Canva、Dropbox、Instacart、OpenTable、Zillow Rentals 等互联应用；引入自定义 MCP 支持；实时话题追踪覆盖博客、新闻、社交、金融等领域。</div><div class="item-source"><a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/" target="_blank">📖 原文链接</a></div></div>
+</div>
+<div class="section"><h2>🇨🇳 国内动态</h2>
+<div class="item"><div class="item-title">阿里云发布 ANOLISA Agentic OS：Agent 运行时的操作系统级底座</div><div class="item-summary">阿里云在峰会发布 ANOLISA（Agentic Nexus OS），定位为 Agent 时代的操作系统。实测 Agent 部署任务 80% token 消耗在"理解环境"而非实际工作；ANOLISA 通过内置 OS Skills 环境地图、Skill 文件系统最小化上下文、IO 自动压缩三重机制实现 token 消耗降低 30%，并推出 Cosh 自然语言 Shell 与三层安全防御架构。</div><div class="item-source"><a href="https://www.alibabacloud.com/blog/alibaba-cloud-unveils-the-agent-infrastructure-panorama-%E2%80%94-anolisa-as-the-runtime-foundation-for-every-agent_603359" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">通义开源 Qwen-Coder-Qoder：强化学习定制的编程 Agent 底座模型</div><div class="item-summary">阿里云发布 Qwen-Coder-Qoder，基于通义 Coder 基座通过大规模 RL 优化深度对齐 Qoder 工具链与 Agent 架构。Qoder Bench 上超越 Cursor Composer-1，Windows 终端命令准确率提升 50%；生产数据：代码留存率+3.85%、工具错误率-61.5%、Token 消耗-14.5%。内置 Rewarder-Attacker 对抗框架防止 Reward Hacking。</div><div class="item-source"><a href="https://www.alibabacloud.com/blog/qwen-coder-qoder-customizing-a-fast-evolving-frontier-model-for-real-software_603370" target="_blank">📖 原文链接</a></div></div>
+<div class="item"><div class="item-title">阿里云大数据与 AI 平台 2026 年 6 月刊：ANOLISA、Qoder 全面更新</div><div class="item-summary">阿里云发布 6 月刊全景更新，涵盖 ANOLISA Agentic OS 正式发布、Qoder NEXT 从内联补全升级至智能代码编辑、Qoder 自进化 Memory 系统、PolarDB-X 分布式分页优化（10K+ QPS 支撑 1000 亿行表）、ApsaraMQ for Kafka 零 ETL 数据湖摄入等核心产品进展。</div><div class="item-source"><a href="https://www.alibabacloud.com/blog/big-data-%26-ai-platform-monthly-newsletter%E2%80%94june-2026_603367" target="_blank">📖 原文链接</a></div></div>
+</div>
+<div class="section"><h2>📌 今日判断</h2><div class="conclusion"><div class="conclusion-title">Agent 基础设施争夺进入白热化阶段</div><div class="conclusion-text">本周国内外头部厂商动作高度聚焦 Agent 基础设施层：OpenAI 用 GPT-Red 将安全红队自动化，Anthropic 联合四家巨头制定越狱响应标准，阿里云直接发布 ANOLISA OS 并将 token 优化下沉至 Linux 内核。竞争核心已从"模型有多强"转向" Agent 在生产环境跑得多稳多便宜"。可以预见，Agent Runtime（运行时）、Agentic OS（操作系统）和 Agent 安全框架三个方向将在未来三个月密集出现重磅产品与标准规范。</div></div></div>
+<div class="footer">由 AI 自动抓取权威来源生成 · 点击来源链接查看原文</div>
+</body>
+</html>
